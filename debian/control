@@ -1,5 +1,5 @@
 Source: robofab
-Section: unknown
+Section: fonts
 Priority: optional
 Maintainer: Hideki Yamane <henrich@debian.org>
 Build-Depends: debhelper (>= 9), dh-python,
