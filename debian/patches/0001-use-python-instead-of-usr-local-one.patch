@@ -1,0 +1,18 @@
+From: Hideki Yamane <henrich@debian.org>
+Date: Sun, 22 Nov 2015 23:16:20 +0900
+Subject: use python, instead of /usr/local one
+
+---
+ Lib/robofab/objects/objectsDefcon.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Lib/robofab/objects/objectsDefcon.py b/Lib/robofab/objects/objectsDefcon.py
+index 8009a22..e1093d1 100644
+--- a/Lib/robofab/objects/objectsDefcon.py
++++ b/Lib/robofab/objects/objectsDefcon.py
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/apppython
++#! /usr/bin/python
+ 
+ """
+ This is the new doc for the objectsRF module.
