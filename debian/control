@@ -3,7 +3,7 @@ Section: unknown
 Priority: optional
 Maintainer: Hideki Yamane <henrich@debian.org>
 Build-Depends: debhelper (>= 9), dh-python,
-               python-all, python3-all,
+               python-all,
 Standards-Version: 3.9.6
 Homepage: http://robofab.org/
 #Vcs-Git: git://anonscm.debian.org/collab-maint/robofab.git
@@ -16,13 +16,3 @@ Description: library with objects deal with data associated with fonts and type 
  RoboFab is a Python library with objects that deal with data usually
  associated with fonts and type design. RoboFab has support for the UFO
  font format.
-
-Package: python3-robofab
-Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
-Description: library with objects deal with data associated with fonts and type design
- RoboFab is a Python library with objects that deal with data usually
- associated with fonts and type design. RoboFab has support for the UFO
- font format.
- .
- This package supports python3.
